@@ -11,6 +11,13 @@
 		566F0B792B7BD8FE004AB0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B782B7BD8FE004AB0C5 /* ContentView.swift */; };
 		566F0B7B2B7BD905004AB0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566F0B7A2B7BD905004AB0C5 /* Assets.xcassets */; };
 		566F0B7E2B7BD905004AB0C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566F0B7D2B7BD905004AB0C5 /* Preview Assets.xcassets */; };
+		566F0B872B7BDBC1004AB0C5 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B862B7BDBC1004AB0C5 /* Flight.swift */; };
+		566F0B892B7BDE34004AB0C5 /* FlightReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B882B7BDE34004AB0C5 /* FlightReservation.swift */; };
+		566F0B8B2B7BDE67004AB0C5 /* ReservationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B8A2B7BDE67004AB0C5 /* ReservationHistory.swift */; };
+		566F0B8D2B7C2E8B004AB0C5 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B8C2B7C2E8B004AB0C5 /* Reservation.swift */; };
+		566F0B8F2B7C314B004AB0C5 /* AllFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B8E2B7C314B004AB0C5 /* AllFlights.swift */; };
+		566F0B912B7C4039004AB0C5 /* AllReservations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B902B7C4039004AB0C5 /* AllReservations.swift */; };
+		566F0B932B7C44E8004AB0C5 /* ReservationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F0B922B7C44E8004AB0C5 /* ReservationDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		566F0B782B7BD8FE004AB0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		566F0B7A2B7BD905004AB0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566F0B7D2B7BD905004AB0C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		566F0B862B7BDBC1004AB0C5 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		566F0B882B7BDE34004AB0C5 /* FlightReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightReservation.swift; sourceTree = "<group>"; };
+		566F0B8A2B7BDE67004AB0C5 /* ReservationHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationHistory.swift; sourceTree = "<group>"; };
+		566F0B8C2B7C2E8B004AB0C5 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		566F0B8E2B7C314B004AB0C5 /* AllFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFlights.swift; sourceTree = "<group>"; };
+		566F0B902B7C4039004AB0C5 /* AllReservations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllReservations.swift; sourceTree = "<group>"; };
+		566F0B922B7C44E8004AB0C5 /* ReservationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				566F0B762B7BD8FE004AB0C5 /* Sankarnath_FlightsApp.swift */,
 				566F0B782B7BD8FE004AB0C5 /* ContentView.swift */,
+				566F0B922B7C44E8004AB0C5 /* ReservationDetails.swift */,
+				566F0B8A2B7BDE67004AB0C5 /* ReservationHistory.swift */,
+				566F0B882B7BDE34004AB0C5 /* FlightReservation.swift */,
+				566F0B8C2B7C2E8B004AB0C5 /* Reservation.swift */,
+				566F0B8E2B7C314B004AB0C5 /* AllFlights.swift */,
+				566F0B862B7BDBC1004AB0C5 /* Flight.swift */,
+				566F0B902B7C4039004AB0C5 /* AllReservations.swift */,
 				566F0B7A2B7BD905004AB0C5 /* Assets.xcassets */,
 				566F0B7C2B7BD905004AB0C5 /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566F0B8B2B7BDE67004AB0C5 /* ReservationHistory.swift in Sources */,
 				566F0B792B7BD8FE004AB0C5 /* ContentView.swift in Sources */,
+				566F0B8D2B7C2E8B004AB0C5 /* Reservation.swift in Sources */,
+				566F0B872B7BDBC1004AB0C5 /* Flight.swift in Sources */,
+				566F0B8F2B7C314B004AB0C5 /* AllFlights.swift in Sources */,
+				566F0B892B7BDE34004AB0C5 /* FlightReservation.swift in Sources */,
+				566F0B932B7C44E8004AB0C5 /* ReservationDetails.swift in Sources */,
+				566F0B912B7C4039004AB0C5 /* AllReservations.swift in Sources */,
 				566F0B772B7BD8FE004AB0C5 /* Sankarnath_FlightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

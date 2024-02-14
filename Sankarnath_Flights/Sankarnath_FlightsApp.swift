@@ -12,6 +12,8 @@ struct Sankarnath_FlightsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AllFlights())
+                .environmentObject(AllReservations()) //Environment objects are passed along at the highest hierarchy
         }
     }
 }
